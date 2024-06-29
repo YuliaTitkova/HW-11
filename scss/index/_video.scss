@@ -24,15 +24,13 @@
 
   @media screen and (min-width: 360px) {
 
-    .video {
+    max-width: 360px;
+
+    &__picture {
       max-width: 360px;
     }
 
-    .video__picture {
-      max-width: 360px;
-    }
-
-    .video__button {
+    &__button {
       max-width: 40px;
     }
   }

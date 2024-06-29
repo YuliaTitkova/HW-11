@@ -2216,13 +2216,13 @@ h1, h2, h3, h4, h5, h6 {
   border: none;
 }
 @media screen and (min-width: 360px) {
-  .video .video {
+  .video {
     max-width: 360px;
   }
-  .video .video__picture {
+  .video__picture {
     max-width: 360px;
   }
-  .video .video__button {
+  .video__button {
     max-width: 40px;
   }
 }
