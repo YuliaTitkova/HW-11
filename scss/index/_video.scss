@@ -1,0 +1,212 @@
+.video {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+
+  &__picture {
+    margin: 0;
+    max-width: 1110px;
+  }
+
+  &__button {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    background: none;
+    border: none;
+  }
+
+  @media screen and (min-width: 360px) {
+
+    .video {
+      max-width: 360px;
+    }
+
+    .video__picture {
+      max-width: 360px;
+    }
+
+    .video__button {
+      max-width: 40px;
+    }
+  }
+
+  @media screen and (min-width: 375px) {
+    max-width: 375px;
+
+    &__picture {
+      max-width: 375px;
+    }
+
+    &__button {
+      max-width: 50px;
+    }
+  }
+
+  @media screen and (min-width: 390px) {
+    max-width: 390px;
+
+    &__picture {
+      max-width: 390px;
+    }
+
+    &__button {
+      max-width: 50px;
+    }
+  }
+
+  @media screen and (min-width: 412px) {
+
+    max-width: 412px;
+
+    &__picture {
+      max-width: 412px;
+    }
+
+    &__button {
+      max-width: 50px;
+    }
+  }
+
+  @media screen and (min-width: 414px) {
+
+    max-width: 414px;
+
+    &__picture {
+      max-width: 414px;
+    }
+
+    &__button {
+      max-width: 50px;
+    }
+  }
+
+  @media screen and (min-width: 430px) {
+    max-width: 430px;
+
+    &__picture {
+      max-width: 430px;
+    }
+
+    &__button {
+      max-width: 60px;
+    }
+  }
+
+  @media screen and (min-width: 540px) {
+    max-width: 540px;
+
+    &__picture {
+      max-width: 540px;
+    }
+
+    &__button {
+      max-width: 60px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+
+    &__picture {
+      max-width: 768px;
+    }
+
+    &__button {
+      max-width: 80px;
+    }
+  }
+
+  @media screen and (min-width: 820px) {
+    max-width: 820px;
+
+    &__picture {
+      max-width: 820px;
+    }
+
+    &__button {
+      max-width: 80px;
+    }
+  }
+
+  @media screen and (min-width: 853px) {
+    max-width: 853px;
+
+    &__picture {
+      max-width: 853px;
+    }
+
+    &__button {
+      max-width: 80px;
+    }
+  }
+
+  @media screen and (min-width: 912px) {
+
+    max-width: 912px;
+
+    &__picture {
+      max-width: 912px;
+    }
+
+    &__button {
+      max-width: 80px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    max-width: 1024px;
+
+    &__picture {
+      max-width: 1024px;
+    }
+
+    &__button {
+      max-width: 80px;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 1280px;
+
+    &__picture {
+      max-width: 1280px;
+    }
+
+    &__button {
+      max-width: 100px;
+    }
+  }
+
+  @media screen and (min-width: 1600px) {
+    max-width: 1600px;
+
+    &__picture {
+      max-width: 1600px;
+    }
+
+    &__button {
+      max-width: 110px;
+    }
+  }
+
+  @media screen and (min-width: 1920px) {
+
+    max-width: 1920px;
+
+    &__picture {
+      max-width: 1920px;
+    }
+
+    &__button {
+      max-width: 120px;
+    }
+  }
+
+}

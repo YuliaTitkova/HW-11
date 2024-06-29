@@ -1,0 +1,115 @@
+.btn {
+  background: var(--color-accent);
+  color: var(--color-contrast);
+  text-decoration: none;
+  min-width: 225px;
+  width: 0;
+  min-height: 65px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  box-sizing: border-box;
+
+
+  &:hover,
+  &:focus {
+    background: var(--color-contrast);
+    color: var(--color-accent);
+  }
+
+  &:active {
+    opacity: .7;
+  }
+
+  @media screen and (min-width: 360px) {
+    min-height: 30px;
+    padding: 10px;
+    min-width: 130px;
+  }
+
+  @media screen and (min-width: 375px) {
+    min-height: 30px;
+    padding: 15px;
+    min-width: 160px;
+  }
+
+  @media screen and (min-width: 390px) {
+    min-height: 30px;
+    padding: 15px;
+    min-width: 160px;
+  }
+
+  @media screen and (min-width: 412px) {
+    min-height: 30px;
+    padding: 15px;
+    min-width: 180px;
+  }
+
+  @media screen and (min-width: 414px) {
+    min-height: 30px;
+    padding: 15px;
+    min-width: 180px;
+  }
+
+  @media screen and (min-width: 430px) {
+    min-height: 30px;
+    padding: 15px;
+    min-width: 200px;
+  }
+
+  @media screen and (min-width: 540px) {
+    min-height: 30px;
+    padding: 15px;
+    min-width: 200px;
+  }
+
+  @media screen and (min-width: 768px) {
+    min-height: 30px;
+    padding: 15px;
+    min-width: 200px;
+  }
+
+  @media screen and (min-width: 820px) {
+    min-height: 30px;
+    padding: 20px;
+    min-width: 250px;
+  }
+
+  @media screen and (min-width: 853px) {
+    min-height: 30px;
+    padding: 20px;
+    min-width: 250px;
+  }
+
+  @media screen and (min-width: 912px) {
+    min-height: 80px;
+    padding: 30px;
+    min-width: 300px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    min-height: 80px;
+    padding: 40px;
+    min-width: 350px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    min-height: 80px;
+    padding: 40px;
+    min-width: 350px;
+  }
+
+  @media screen and (min-width: 1600px) {
+    min-height: 80px;
+    padding: 40px;
+    min-width: 400px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    min-height: 80px;
+    padding: 40px;
+    min-width: 400px;
+  }
+
+}
